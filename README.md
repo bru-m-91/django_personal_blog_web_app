@@ -1,6 +1,6 @@
 # Django Personal Blog App
 
-<img src="previews/demo.gif" height="300"/>
+<img src="previews/demo.gif" height="400"/>
 
 <br/>
 
@@ -50,12 +50,12 @@ Once you have Python and Django installed, you can follow these steps to set up 
     > On linux -> source myenv/bin/activate
      ```
 
-5. Install the project dependencies using pip:
+5. Navigate to 'src' of the project directory and install the project dependencies using pip:
    ```bash
    pip install -r requirements.txt
    ```
 
-6. Run the database migrations to set up the database:
+6. Navigate to 'src/personal_blog' of the project directory and run the database migrations to set up the database:
    ```bash
    python manage.py migrate
    ```
@@ -71,6 +71,8 @@ After completing the installation, you can start the development server and acce
 1. Start the development server:
    ```bash
    python manage.py runserver
+   or
+   python src/personal_blog/manage.py runserver [when you are running from project directory]
    ```
 
 2. Open a web browser and navigate to [http://127.0.0.1:8000/](http://127.0.0.1:8000/) to access the blog homepage.
@@ -96,12 +98,9 @@ The Django Personal Blog App provides the following features:
 ### 4. Post Management
 - Admin users can create, edit, and delete blog posts through the admin panel.
 
-<br/>
-
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-<br/>
 
 #### **Thank you for using the Django Personal Blog App! If you have any questions, suggestions or encounter any issues, please don't hesitate to [DM me](https://twitter.com/randomdotfloat)**
