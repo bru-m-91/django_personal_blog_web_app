@@ -1,0 +1,30 @@
+<!--  blog/templates/blog/base.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}My Blog{% endblock %}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark border-bottom box-shadow mb-3">
+        <a class="navbar-brand" href="{% url 'blog_index' %}">Home</a>
+        <a class="navbar-brand" href="mailto:3x4yis0@protonmail.com">Contact Me</a>
+    </nav>
+    <div class="container">
+        {% block page_title %}{% endblock page_title %}
+        {% block page_content %}{% endblock page_content %}
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
