@@ -27,7 +27,7 @@
       <p>Understand form handling in Django, including form validation and submission.</p>
    </details>
 
-* ### *In the context of this personal blog, only the admin or super user can create and publish posts from admin interface.<br/>Readers, however, can directly comment on posts without the need for user registration, simplifying the user experience.*
+* *In the context of this personal blog, only the admin or super user can create and publish posts from admin interface.<br/>Readers, however, can directly comment on posts without the need for user registration, simplifying the user experience.*
 
 ## Installation
 To run this Django Personal Blog App, you need to have Python on your system. If you haven't already, you can download and install them from the following link:
@@ -104,4 +104,4 @@ The Django Personal Blog App provides the following features:
 
 <br/>
 
-### **Thank you for using the Django Personal Blog App! If you have any questions, suggestions or encounter any issues, please don't hesitate to [DM me](https://twitter.com/randomdotfloat)**
+#### **Thank you for using the Django Personal Blog App! If you have any questions, suggestions or encounter any issues, please don't hesitate to [DM me](https://twitter.com/randomdotfloat)**
